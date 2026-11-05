@@ -20,10 +20,17 @@
 | 12 | Event-Driven：事件驱动架构 | [查看](architectures/12-event-driven.md) |
 | 13 | Planner-Executor：动态规划执行架构 | [查看](architectures/13-planner-executor.md) |
 | 14 | Hybrid：混合式架构 | [查看](architectures/14-hybrid.md) |
-| 15 | 智能体之间的数据交付标准 | [查看](architectures/15-undefined.md) |
-| 16 | 状态、记忆与上下文隔离 | [查看](architectures/16-undefined.md) |
-| 17 | MCP 和 A2A 的作用 | [查看](architectures/17-undefined.md) |
-| 18 | 人工介入（Human-in-the-Loop） | [查看](architectures/18-undefined.md) |
+
+## 工程基础能力
+
+原对话还介绍了以下四项能力。它们帮助多智能体系统稳定运行，可与上面的架构组合使用，但本身不属于第 15～18 种协同架构。
+
+| 序号 | 能力 | 文档 |
+| --- | --- | --- |
+| 1 | 智能体之间的数据交付标准 | [查看](foundations/01-data-contract.md) |
+| 2 | 状态、记忆与上下文隔离 | [查看](foundations/02-state-memory-context.md) |
+| 3 | MCP 和 A2A 的作用 | [查看](foundations/03-mcp-a2a.md) |
+| 4 | 人工介入（Human-in-the-Loop） | [查看](foundations/04-human-in-the-loop.md) |
 
 ## 阅读方式
 
