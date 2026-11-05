@@ -36,12 +36,8 @@ flowchart TD
 
 Blackboard 更多是一种通信和共享状态模式，可以与 Supervisor、Graph 或 Event-Driven 架构同时使用。
 
-## 对话中的产品案例
+## 相关产品做法
 
-Genspark Super Agent：原对话描述专业 Agent 基于统一上下文快照并行工作，主 Agent 统一更新上下文。这是共享状态的相关案例，原对话没有称其为传统黑板架构。[技术文章](https://www.genspark.ai/blog/genspark-multiagent-orchestration)
+### Genspark Super Agent：共享上下文的相关做法
 
-## 来源与核验
-
-- 架构说明和场景摘自对话《多智能体架构详解》（ID：`6ae9876b-eba0-83ec-881f-df52a5d79c38`）。
-- 产品描述来自同一对话；具体版本和实现需再次核验。
-
+示例需求是同时生成报告、演示文稿和财务表。各专业智能体基于同一份上下文快照工作，结果返回后由主智能体统一更新上下文，以减少产品名称、数据口径等内容不一致的问题。它展示了共享状态和版本控制的价值；具体做法是主控统一更新快照，并非所有智能体都直接写入同一块黑板。
